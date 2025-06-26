@@ -56,7 +56,7 @@ This project is a simple Node.js REST API for user registration, login, and prof
 - **URL:** `/user/profile`
 - **Method:** `GET`
 - **Description:** Retrieves the authenticated user's profile. (JWT required)
-- **Headers:** `Authorization: Bearer your_jwt_token_here`
+- **Headers:** `Authorization: your_jwt_token_here`
 - **Success Response:**
   - **Code:** 200 OK
   - **Content:** `{ "name": "John Doe", "email": "john@example.com", "mobile": "1234567890" }`
@@ -69,7 +69,7 @@ This project is a simple Node.js REST API for user registration, login, and prof
 - **URL:** `/user/profile`
 - **Method:** `PUT`
 - **Description:** Updates the authenticated user's profile. (JWT required)
-- **Headers:** `Authorization: Bearer your_jwt_token_here`
+- **Headers:** `Authorization: your_jwt_token_here`
 - **Request Body Example:**
   ```json
   {
